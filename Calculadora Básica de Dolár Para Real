@@ -1,0 +1,6 @@
+var valorEmDolar = 30;
+var cotacaoDolarEmReal = 5.09;
+var valorEmReal = valorEmDolar * cotacaoDolarEmReal;
+
+valorEmReal = valorEmReal.toFixed(2);
+alert("Valor Em Real: R$" + valorEmReal);
